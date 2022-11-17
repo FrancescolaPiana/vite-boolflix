@@ -2,7 +2,7 @@
     <div class="search-container">
         <form @submit.prevent="performSearch">
             <input type="text" placeholder="Search.." name="search" v-model.trim="store.params.query" >
-            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <!-- <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> -->
         </form>
     </div>
 </template>
